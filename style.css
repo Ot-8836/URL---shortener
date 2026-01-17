@@ -1,0 +1,75 @@
+/* CSS Reset & Base Styles */
+* {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Page background & centering */
+body {
+  background: #f4f6f8;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Container box */
+.container {
+  background: #ffffff;
+  padding: 25px;
+  width: 100%;
+  max-width: 400px;
+  border-radius: 8px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.container h2 {
+  margin-bottom: 20px;
+}
+
+/* Inputs */
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Buttons */
+button {
+  width: 100%;
+  padding: 10px;
+  background: #007bff;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Hover effect */
+button:hover {
+  background: #0056b3;
+}
+
+/* Result section */
+.result {
+  display: none;
+  margin-top: 15px;
+}
+
+.result input {
+  margin-bottom: 8px;
+}
+
+#message {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.loading {
+  opacity: 0.6;
+  pointer-events: none;
+}
